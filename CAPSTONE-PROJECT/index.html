@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodie - Food Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Foodie</div>
+            <ul class="nav-links">
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#app">App</a></li>
+                
+            </ul>
+            <button class="login-btn">Login</button>
+        
+        </nav>
+    </header>
+    <main id="main">
+
+     <!-- Hero Section  -->
+    <article class="hero">
+        <div class="hero-content">
+            <h1>Order Food <span>Fast & Fresh</span></h1>
+            <p>Enjoy delicious meals delivered straight to your door.</p>
+            <button class="cta-btn">Order Now</button>
+        </div>
+    </article>
+
+    <!-- Search Bar -->
+    <section class="search">
+        <form>
+            <input type="text" placeholder="Enter your location" />
+            <select>
+                <option>All Categories</option>
+                <option>Pizza</option>
+                <option>Burger</option>
+                <option>Pasta</option>
+                <option>Dessert</option>
+            </select>
+            <button class="search-btn">Search</button>
+        </form>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories">
+        <h2>Food Categories</h2>
+
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" width="200px" height="200px" alt="pizza">
+                <span><h3>Pizza</h3></span>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww" width="200px" height="200px" alt="burger">
+                <span><h3>Burger</h3></span>
+            </div>
+            <div class="category-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmClc-ZiIaVOV7xmpgjL85QbL_yEgrfujcTQ&s" width="200px" height="200px" alt="pasta">
+                <span><h3>Pasta</h3></span>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHN8ZW58MHx8MHx8fDA%3D"width="200px" height="200px" alt="dessert">
+                <span><h3>Dessert</h3></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section id="restaurants" class="restaurants">
+        <h2>Featured Restaurants</h2>
+
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512w/external-dominos-an-american-multinational-pizza-restaurant-chain-food-color-tal-revivo.png" width="400px" height="300px" alt="Dominos">
+                <h3>Dominos</h3>
+                <p>⭐ 4.8 - Italian Pizzas</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="https://img.icons8.com/color/512/burger-king-logo.png" width="400px" height="300px" alt="Burger king">
+                <h3>Burger King</h3>
+                <p>⭐ 4.6 - Burgers</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo98Gu4mCos9dCRQKu1QPj2mL12YpK9_xjDg&s" width="400px" height="300px" alt="Belgian Waffle">
+                <h3>The Belgian Waffle</h3>
+                <p>⭐ 4.9 - Deserts</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Offers -->
+    <section id="offers" class="offers">
+        <h2>Special Offers</h2>
+
+        <div class="offer-banner">
+            <span><h3>🔥 50% Off on First Order!</h3></span>
+        </div>
+        <div class="offer-banner yellow">
+            <span><h3>🚚 Free Delivery on Orders Above Rs.200</h3></span>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+
+        <div class="testimonials-grid">
+            <div class="test-card">
+                <img src="https://media.istockphoto.com/id/1409730717/photo/man-rating-his-experience-at-a-restaurant-using-an-app-on-a-cell-phone.jpg?s=612x612&w=0&k=20&c=6GqDn8lreaDnAIcSZjOI4004pz-SbCr3Ak4f7TNFuIo=" width="200px"height="200px" alt="">
+                <p>"Amazing service! Food arrived hot and fresh."</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+            <div class="test-card">
+                <img src="https://img.freepik.com/free-photo/customer-experience-creative-collage_23-2149346508.jpg?semt=ais_hybrid&w=740&q=80" width="200px"height="200px" alt="">
+                <p>"My go-to food delivery app. Highly recommended!"</p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section -->
+    <section id="app" class="app-section">
+        <div>
+            <h2>Get the App</h2>
+            <p>Order food whenever you want with our mobile app.</p>
+            <a href="#" class="store-btn">Google Play</a>
+            <a href="#" class="store-btn">App Store</a>
+        </div>
+        <img src="https://img.freepik.com/premium-vector/food-kebab-kebap-icon-logo-sign-art-app-web-box-order-social-media-share-fast-smart-phone-design_621257-169.jpg?semt=ais_hybrid&w=740&q=80" width="300px" height="300px" />
+    </section>
+
+
+
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Foodie</h3>
+                <p>Best food delivery service.</p>
+            </div>
+
+            <ul>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+
+            <p class="copy">© 2025 Foodie. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
